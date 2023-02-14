@@ -1,0 +1,95 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.information input {
+  width: 300px;
+  height: 20px;
+}
+
+.information button {
+  width: 300px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.information button:hover {
+  cursor: pointer;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.user {
+  width: 700px;
+  height: 50px;
+  background-color: burlywood;
+  border: 1px solid black;
+  display: flex;
+}
+
+.login_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  /* background-color: #d0e9ff90; */
+}
+
+.login_1 input {
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: var(--color-bg);
+  padding: 2rem 0;
+}
+
+header > a:hover {
+  text-decoration: underline;
+}
+
+main {
+  min-height: calc(100vh - 85px - 22px);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+main a {
+  text-decoration: none;
+  color: var(--color-bg);
+}
+main a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}
+
+.dropdown-menu {
+  display: block;
+}
+
+.side-menu {
+  display: flex;
+  flex-direction: column;
+}
